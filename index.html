@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eduardo Manrique">
+    <meta name="keywords" content="Web, Developer, Backend, Frontend, HTML, CSS, JavaScript">
+    <meta name="description" content="Portafolio Web de Desarrollador Eduardo Manrique">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONOS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Marvel&family=Modak&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Eduardo M.</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="module" src="assets/js/main.js" ></script>
+    <!-- EMAILJS     -->
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('4Yg-BLjX1z8We8R6Z')
+</script>
+</head>
+<body>
+    
+    <header class="header">
+           <nav class="nav flex--container">
+            <div class="nav__logo">
+                <a class="home" href="#home"><i class='bx bx-registered'></i>EM</a>
+            </div>
+            <div class="nav__sections flex--container">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#about" class="nav__item--aboutMe">Sobre Mi</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__item--skills">Habilidades</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__item--work">Portafolio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__item--contact">Contacto</a>
+                </li>
+            </ul>
+            </div>
+            <div class="navbar__toggles flex--container">
+                <button id="btn__lenguage">
+                    <img src="/talleres/mi portafolio/assets/img/espana.png" alt="idioma español">
+                </button>
+                <button id="light_mode">
+                    <i class='bx bx-moon'></i>
+                </button>
+                
+            </div>
+           </nav>
+    </header>
+    <main class="">
+        <section id="home" class="home flex--container">
+            <div class="presentation flex--container">
+                <h1 class="hiEduardo">
+                    Hola soy Eduardo
+                </h1>
+                <p class="marvelfont">Web Developer</p>
+            <div class="icons flex--container">
+                <ul class="icons__list">
+                 <li>   
+                    <a class="icons__list--linkedin" href="https://www.linkedin.com/in/eduardo-manrique-5b5387216/" target="_blank">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                 </li>
+                 <li>
+                     <a class="icons__list--facebook" href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                         <i class='bx bxl-facebook-square' ></i>
+                        </a>
+                </li>
+                <li>
+                    <a class="icons__list--instagram" href="https://www.instagram.com/" target="_blank">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </li>   
+                <li>
+                    <a class="icons__list--github" href="https://github.com/xmxnr" target="_blank">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </li>
+                </ul>
+            </div>
+            </div> 
+        </section>
+        <section id="about" class="about flex--container">  
+            <div class="imagen__about">
+                <img src="assets/img/image__about.jpg" alt="Eduardo Manrique2">
+            </div>
+            <div class="about__text flex--container">
+                <h2 class="about__text--header">Sobre Mi</h2>
+                <p class="about__text--paragraph marvelfont">Me enamoré de la idea de transformar ideas en realidades digitales. Me esfuerzo por mantenerme actualizado con las últimas tendencias y mejores prácticas en desarrollo web, asegurando que mis proyectos sean innovadores y estén construidos con el más alto estándar de calidad. 
+
+                Creo firmemente en la importancia de la colaboración y la comunicación. Trabajar estrechamente con mis clientes y compañeros de equipo para entender sus necesidades y asegurarme de que cada proyecto refleje su visión.
+                    
+                Soy un amante del cine y de la música,  lo que me ayuda a mantenerme creativo y motivado.
+                </p>
+                <button class="download__cv--button">
+                    <a href="/talleres/mi portafolio/assets/downloads/CV.EDUARDO.MANRIQUE.ENGLISH.pdf" download>Descargar CV</a>
+                </button>
+            </div> 
+        </section>
+        <section id="skills" class="skills flex--container">
+            <header class="skills__header">
+                <h2 class = 'skills__header--text'>Habilidades</h2>
+            </header>
+            <div class="technologies__container flex--container">
+                <div class="technologies__html flex--container">
+                    <h2 class="technologies__header">HTML</h2>
+                    <p class="marvelfont htmlskills">Estructura HTML <br>
+                        HTML5 <br>
+                        Atributos HTML <br>
+                        Formularios <br>
+                        Enlaces e Imágenes <br>
+                        Tablas y Listas <br>
+                        Multimedia <br>
+                        Accesibilidad <br>
+                        SEO <br>
+                        Microdatos y Esquemas <br>
+                        Validación de HTML</p>
+                    <i class='bx bxl-html5' ></i>
+                </div>
+                <div class="technologies__css flex--container">
+                    <h2 class="technologies__header">CSS</h2>
+                    <p class="marvelfont cssSkills">Selectores <br>
+                        Especificidad <br>
+                        Propiedades y Valores <br>
+                        Box Model <br>
+                        Flexbox <br>
+                        Grid <br>
+                        Posicionamiento <br>
+                        Tipografía <br>
+                        Colores y Fondos <br>
+                        Transiciones y Animaciones <br>
+                        Media Queries <br>
+                        Responsividad <br>
+                        Pseudo-clases y Pseudo-elementos</p>
+                    <i class='bx bxl-css3' ></i>
+                </div>
+                <div class="technologies__javascript flex--container">
+                    <h2 class="technologies__header">JavaScript</h2>
+                    <p class="marvelfont jsSkills">Sintaxis <br>
+                        Variables <br>
+                        Tipos de Datos <br>
+                        Operadores <br>
+                        Condicionales <br>
+                        Bucles <br>
+                        Funciones <br>
+                        Objetos <br>
+                        Arrays <br>
+                        DOM Manipulation <br>
+                        Eventos</p>
+                    <i class='bx bxl-javascript' ></i>
+                </div>
+                <div class="technologies__react flex--container">
+                    <h2 class="technologies__header">React</h2>
+                    <p class="marvelfont reactSkills">Proximamente...</p>
+                    <i class='bx bxl-react'></i>
+                </div>
+            </div>
+        </section>
+        <section id="work" class="work flex--container"> 
+            <header class="work__header">
+                <h2 class="work__header--text">Proyectos</h2>
+            </header>
+            <div class="project__container flex--container">
+                <div class="project__1 flex--container">
+                    <img src="assets/img/project1.jpg" alt="Project1">
+                    <div class="project__1--description flex--container">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime consectetur commodi beatae quaerat perspiciatis sapiente unde exercitationem dolores consequuntur odio ea repellat corrupti, aspernatur et, iste cupiditate quo alias?
+                        </p>
+                        <button class="btn projects__button--demo" type="button">
+                            VER DEMO
+                        </button> 
+                        <button class="btn projects__button--code" type="button">
+                            VER CODIGO
+                    </div>
+                </div>
+                <div class="project__2 flex--container">
+                    <img src="assets/img/project2.png" alt="Project2">
+                    <div class="project__2--description flex--container">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime consectetur commodi beatae quaerat perspiciatis sapiente unde exercitationem dolores consequuntur odio ea repellat corrupti, aspernatur et, iste cupiditate quo alias?
+                        </p>
+                    <button class="btn projects__button--demo1" type="button">
+                        VER DEMO
+                    </button> 
+                    <button class="btn projects__button--code1" type="button">
+                        VER CODIGO
+                    </div>
+                </div>
+                <div class="project__3 flex--container">
+                    <img src="assets/img/project3.jpg" alt="Project3">
+                    <div class="project__3--description flex--container">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime consectetur commodi beatae quaerat perspiciatis sapiente unde exercitationem dolores consequuntur odio ea repellat corrupti, aspernatur et, iste cupiditate quo alias?
+                        </p>
+                        <button class="btn projects__button--demo2" type="button">
+                            VER DEMO
+                        </button> 
+                        <button class="btn projects__button--code2" type="button">
+                            VER CODIGO
+                        </button> 
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section id="contact" class="contact flex--container">    
+            <h3 class="contact__form-title flex--container">Enviar mensaje</h3>
+            <form id="form" class="contact__form-container  flex--container">
+              <div class="contact__form-group">
+                <label for="name" class="contact__form-label">Nombre</label>
+                <input type="text" id="name" name="name" class="contact__form-input" required/>
+              </div>
+  
+              <div class="contact__form-group">
+                <label for="email" class="contact__form-label emailForm">Correo</label>
+                <input type="email" id="email" name="email" class="contact__form-input" required/>
+              </div>
+  
+              <div class="contact__form-group">
+                <label for="subject" class="contact__form-label subjectform">Asunto</label>
+                <input type="text" id="subject" name="subject" class="contact__form-input" required />
+              </div>
+  
+              <div class="contact__form-group">
+                <label for="message" class="contact__form-label messageForm">Mensaje</label>
+                <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
+              </div>
+              <dialog id="modal">
+                Formulario enviado con éxito!
+                <button type="reset" id="btn_close-modal">Cerrar</button>
+              </dialog>
+  
+              <button id="submit" type="submit" class="btn contact__form-button">
+                Enviar
+              </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container flex--container">
+            <div class="footer__info">
+              <h3 class="footer__title">Eduardo Manrique</h3>
+              <p class="footer__description">
+                Desarrollador web y arquitecto de profesión.
+              </p>
+            </div>
+      
+            <div class="footer__social">
+              <h3 class="footer__title">Redes Sociales</h3>
+      
+              <ul class="footer__social-list">
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+                      class="bx bxl-facebook"></i></a>
+                </li>
+      
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+                      class="bx bxl-instagram"></i></a>
+                </li>
+      
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+                      class="bx bxl-twitter"></i></a>
+                </li>
+      
+                <li class="footer__social-item">
+                  <a class="footer__social-link" href="#" target="_blank" rel="noreferrer nofollow"><i
+                      class="bx bxl-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    </footer>
+</body>
+</html>
